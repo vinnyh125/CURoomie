@@ -5,8 +5,16 @@ export default function Nav() {
         <div>
           CURoomie
         </div>
-        <div>
-          Other Links
+        <div className="flex">
+          <div>
+            Home
+          </div>
+          <div>
+            FAQ
+          </div>
+          <div>
+            Sign In
+          </div>
         </div>
       </div>
     </>
