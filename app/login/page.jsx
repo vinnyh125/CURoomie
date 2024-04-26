@@ -4,8 +4,8 @@ export default function Login() {
   return (
     <>
       <div className="min-h-screen">
-        <div className="flex-col justify-center">
-          <div className="border-black border-2 text-center">
+        <div className="flex flex-col items-center">
+          <div className="border-black border-2 text-center w-full max-w-screen-md">
             Login
           </div>
           <Link
