@@ -16,12 +16,12 @@ export default function Nav() {
             Home
           </Link>
           <Link
-            href="/faq"
+            href="/pages/faq"
           >
             FAQ
           </Link>
           <Link
-            href="/login"
+            href="/pages/login"
           >
             Sign In
           </Link>

@@ -9,7 +9,7 @@ export default function Login() {
             Login
           </div>
           <Link
-            href="/create"
+            href="/pages/create"
             className="underline text-blue-600 text-sm"
           >
             Create
