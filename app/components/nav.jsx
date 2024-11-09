@@ -3,17 +3,18 @@ import Link from "next/link"
 export default function Nav() {
   return (
     <>
-      <div className="flex min-w-screen justify-between">
+      <div className="flex min-w-screen justify-between mx-[8%] my-[1%]">
         <Link
           href="/"
+          className="text-2xl"
         >
-          CURoomie
+          🏠CURoomie
         </Link>
-        <div className="flex">
+        <div className="flex text-lg w-1/4 justify-between items-center">
           <Link
             href="/"
           >
-            Home
+            HOME
           </Link>
           <Link
             href="/pages/faq"
@@ -23,7 +24,7 @@ export default function Nav() {
           <Link
             href="/pages/login"
           >
-            Sign In
+            SIGN IN
           </Link>
         </div>
       </div>
