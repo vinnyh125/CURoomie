@@ -31,7 +31,7 @@ export default function Accordion() {
       </h1>
       <h2 className="text-lg px-4 pt-2 pb-4 text-custom-navy border-b border-custom-navy">
         Finding a roommate on or off campus can be stressful, demoralizing, and
-        scary. To help with the process, we've put together some common
+        scary. To help with the process, we&apos;ve put together some common
         questions about our platform and how it can help aid you in your search.
       </h2>
       {faqItems.map((item, index) => (
