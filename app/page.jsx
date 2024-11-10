@@ -96,7 +96,7 @@ export default function Home() {
           <h1 className="text-custom-red text-4xl font-staatliches mb-10">
             GOT QUESTIONS? WE&apos;VE GOT ANSWERS!
           </h1>
-          <div className="flex flex-row">
+          <div className="flex flex-row gap-4">
             <div className="flex flex-col flex-1">
               <h1 className="text-custom-red text-2xl mb-3">
                 What makes CURoomie different?
