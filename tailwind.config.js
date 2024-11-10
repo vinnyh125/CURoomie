@@ -29,6 +29,9 @@ module.exports = {
         "custom-burgandy": "#780000",
         "custom-navy": "#003049",
       },
+      borderColor: {
+        "custom-navy": "#003049",
+      },
     },
   },
   plugins: [],

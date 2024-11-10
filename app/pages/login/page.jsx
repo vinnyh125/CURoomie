@@ -1,21 +1,16 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Login() {
   return (
     <>
-      <div className="min-h-screen">
-        <div className="flex flex-col items-center">
-          <div className="border-black border-2 text-center w-full max-w-screen-md">
-            Login
-          </div>
-          <Link
-            href="/pages/create"
-            className="underline text-blue-600 text-sm"
-          >
-            Create
-          </Link>
+      <div className="flex flex-col justify-center items-center min-h-screen min-w-screen bg-custom-tan">
+        <div className="">
+          <h1>Log in</h1>
+          <h2>Username</h2>
+          <h2>Password</h2>
+          <div>Log in</div>
         </div>
       </div>
     </>
-  )
+  );
 }
