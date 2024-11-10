@@ -15,7 +15,9 @@ module.exports = {
       backgroundColor: {
         "custom-red": "#C1121F",
         "custom-tan": "#FDF0D5",
+        "custom-dark-tan": "#FCE7BD",
         "custom-burgandy":"#780000",
+        "custom-navy": "#003049",
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'sans-serif'], 
@@ -23,6 +25,7 @@ module.exports = {
       },
       textColor: {
         "custom-tan": "#FDF0D5",
+        "custom-red": "#C1121F",
         "custom-burgandy": "#780000",
         "custom-navy": "#003049",
       },
