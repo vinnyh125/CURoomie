@@ -94,7 +94,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col w-[70%] mb-20">
           <h1 className="text-custom-red text-4xl font-staatliches mb-10">
-            GOT QUESTIONS? WE'VE GOT ANSWERS!
+            GOT QUESTIONS? WE&apos;VE GOT ANSWERS!
           </h1>
           <div className="flex flex-row">
             <div className="flex flex-col flex-1">
@@ -120,7 +120,8 @@ export default function Home() {
         </div>
         <div className="w-[70%] mb-16">
           <h1 className="text-custom-navy text-4xl font-staatliches mb-10">
-            READY TO FIND THE PERFECT ROOMMATE? YOU'RE JUST A FEW CLICKS AWAY!
+            READY TO FIND THE PERFECT ROOMMATE? YOU&apos;RE JUST A FEW CLICKS
+            AWAY!
           </h1>
           <div className="flex flex-row gap-4">
             <Link href="/">
