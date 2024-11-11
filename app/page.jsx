@@ -12,7 +12,10 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex w-[80%] justify-center gap-2">
-          <Link href="/" className="text-custom-tan text-center block">
+          <Link
+            href="/pages/login"
+            className="text-custom-tan text-center block"
+          >
             <div className="bg-custom-burgandy px-4 py-2 rounded-2xl w-32">
               Get Started
             </div>
@@ -127,7 +130,7 @@ export default function Home() {
             AWAY!
           </h1>
           <div className="flex flex-row gap-4">
-            <Link href="/">
+            <Link href="/pages/login">
               <div className="bg-custom-navy text-white p-4 rounded-2xl">
                 Join Now
               </div>
