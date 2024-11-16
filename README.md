@@ -1,6 +1,6 @@
-# CURoomie
+# CURoomie 🏠
 
-CURoomie is a platform designed to help Cornell University students find compatible roommates for both on-campus and off-campus housing. Built with NextJS, React, Flask, and PostgreSQL, CURoomie simplifies the roommate search by offering personalized recommendations based on user preferences and compatibility.
+CURoomie is a platform designed to help Cornell University students find compatible roommates for both on-campus and off-campus housing. Built with NextJS, React, Flask, and Firebase, CURoomie simplifies the roommate search by offering personalized recommendations based on user preferences and compatibility.
 
 ## Features
 
