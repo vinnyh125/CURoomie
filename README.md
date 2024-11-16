@@ -14,8 +14,8 @@ CURoomie is a platform designed to help Cornell University students find compati
 
 - **Frontend**: NextJS, React, TailwindCSS
 - **Backend**: Flask (Python), RESTful API
-- **Database**: PostgreSQL
-- **Hosting**: Netlify (Frontend), Heroku (Backend)
+- **Database**: Firebase/Firestore
+- **Hosting**: Vercel (Frontend), tbd (Backend)
 - **Domain**: Google Domains
 
 ## Installation
