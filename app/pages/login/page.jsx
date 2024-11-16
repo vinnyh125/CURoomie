@@ -1,12 +1,27 @@
-import Link from "next/link";
+"use client";
+
+import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { signInWithGoogle } from "@/auth";
 
 export default function Login() {
+  const router = useRouter();
+
+  const handleGoogleSignIn = async () => {
+    try {
+      const user = await signInWithGoogle();
+      if (user) {
+        router.push("/pages/dashboard");
+      }
+    } catch (error) {
+      console.error("Error during Google Sign-In:", error.message);
+    }
+  };
   return (
     <>
       <div className="flex flex-col items-center min-h-screen min-w-screen bg-custom-tan">
-        <div className="mt-[15%] p-4 border border-black rounded-md shadow-2xl w-full max-w-sm bg-custom-dark-tan">
-          <h1 className="font-staatliches text-3xl">Sign in</h1>
+        <div className="mt-[12%] p-6 border border-black rounded-md shadow-2xl w-full max-w-sm bg-custom-dark-tan">
+          <h1 className="font-bold text-custom-navy text-3xl">Sign in</h1>
           <div className="mt-4 mb-2">
             <input
               type="email"
@@ -36,11 +51,15 @@ export default function Login() {
             </div>
           </div>
           <div>
-            <button className="flex justify-center items-center bg-black text-white border border-black rounded-3xl w-full py-2">
+            <button
+              onClick={handleGoogleSignIn}
+              className="flex justify-center items-center bg-black text-white border border-black rounded-3xl w-full py-2"
+            >
               <Image
                 width={20}
                 height={20}
                 src="/img/googlelogo.png"
+                alt="Google Logo"
                 className="mr-2"
               />
               <h1>Sign in with Google</h1>
